@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.add_vertical_space import add_vertical_space
 import google.generativeai as genai
 import os
 import PyPDF2 as pdf
@@ -110,9 +109,7 @@ with st.sidebar:
     - [Gemini (model/gemini-1.5-flash-8b)](https://deepmind.google/technologies/gemini/#introduction)
     - [makersuit API Key](https://makersuite.google.com/)
     """)
-    
-    add_vertical_space(5)
-    st.write("Made with ❤ by Nilesh Kumar.")
+
 
 # Main content
 st.title("Smart Application Tracking System")
