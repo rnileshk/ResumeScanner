@@ -9,6 +9,13 @@ import re
 # Load environment variables
 load_dotenv()
 
+st.set_page_config(
+    page_title="Interview Prep Platform",
+    page_icon="🎯",
+    layout="wide"
+)
+
+
 # Initialize Google Gemini API key
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
