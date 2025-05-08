@@ -11,8 +11,6 @@ load_dotenv()
 
 st.set_page_config(
     page_title="Interview Prep Platform",
-    page_icon="🎯",
-    layout="wide"
 )
 
 
